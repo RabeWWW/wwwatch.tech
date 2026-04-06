@@ -1,0 +1,30 @@
+APP KONZEPT:
+
+- Vertikale Timeline (TikTok-Style)
+- Zoom Level steuert sichtbare Events
+- Priorität (1–10) bestimmt Sichtbarkeit bei wenig Platz
+- Bei zu vielen Events → Cluster (z. B. "10+ Ereignisse")
+- Klick = Info anzeigen
+- Zweiter Klick = Bearbeiten
+- Long Press = erweitern
+
+UI:
+
+- Topbar mit Zeitraum-Anzeige
+- Floating + Button (unten mittig)
+- Search Button daneben
+- Zoom Buttons rechts (Daumen erreichbar)
+
+FEATURES:
+
+- Event erstellen / bearbeiten
+- Suche mit Vorschlägen
+- Filter nach Kategorien
+- Tabs für Themenbereiche
+- PWA (installierbar)
+
+REGELN:
+
+- Logik darf nicht durch UI zerstört werden
+- Priorität entscheidet immer bei Konflikten
+- Cluster bei Überladung MUSS funktionieren
